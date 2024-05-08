@@ -1,6 +1,6 @@
 README
 
-<b>Explore/<b>
+<b>Explore</b>
 YARN YANKER SANDBOX README
 
 Description
