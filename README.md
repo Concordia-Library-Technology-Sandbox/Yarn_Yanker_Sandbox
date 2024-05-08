@@ -43,8 +43,3 @@ This project is licensed under the BSD v3 license, see repo for details.
 Happy yarn winding! 🧶✨
 
 Inspired by the softness of sheep and the joy of crafting. 🐑❤️
-
-medium.com
-6
-en.wikipedia.org
-
