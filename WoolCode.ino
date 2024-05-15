@@ -1,5 +1,4 @@
-
-/*
+ /*
  Wool winder code
 
 
@@ -82,7 +81,15 @@ void WriteMessageWrap(String message)
   if(message.length() > 16)
   {
     String part1 = message.substring(0, 16);
-    String part2 = message.substring(16, 32);
+    String part2 = message.substring(16);
+
+    // Add spaces to the last word of part1
+    int lastSpaceIndex = part1.lastIndexOf(' ');
+    if (lastSpaceIndex != -1) {
+      part1 = part1.substring(0, lastSpaceIndex);
+    }
+
+    // Print on the LCD
     lcd.setCursor(0, 0);
     lcd.print(part1);
     lcd.setCursor(0, 1);
@@ -116,4 +123,3 @@ void WriteMessageScrollingBottom(String message)
   }
   Serial.print(message);
 }
-
